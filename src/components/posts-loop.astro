@@ -10,11 +10,6 @@ function parseDate(dateStr) {
 }
 
 const sortedPosts = allPosts
-  .map((post) => ({
-    ...post,
-    date: parseDate(post.data.dateFormatted),
-  }))
-  .sort((a, b) => b.date.getTime() - a.date.getTime());
 
 const postsLoop = sortedPosts.slice(0, count).map((post) => {
   return {

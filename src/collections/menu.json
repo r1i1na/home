@@ -1,18 +1,14 @@
 [
 	{
-		"name": "Home",
+		"name": "主页",
 		"url": "/"
 	},
 	{
-		"name": "Posts",
-		"url": "/posts"
+		"name": "博客",
+		"url": "https://r1n.top/"
 	},
 	{
-		"name": "Projects",
-		"url": "/projects"
-	},
-	{
-		"name": "About",
+		"name": "关于",
 		"url": "/about"
 	}
 ]
